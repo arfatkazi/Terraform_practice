@@ -1,0 +1,40 @@
+**/.terraform/
+**/*.tfstate
+**/*.tfstate.*
+**/crash.log
+**/crash.*.log
+**/*.tfplan
+**/*.plan
+**/*.tfvars
+**/*.tfvars.json
+**/override.tf
+**/override.tf.json
+**/*_override.tf
+**/*_override.tf.json
+**/.terraformrc
+**/terraform.rc
+
+# SSH keys
+**/*.pem
+**/*.key
+**/id_rsa
+**/id_rsa.pub
+**/id_ed25519
+**/id_ed25519.pub
+**/ansible-key-ec2
+**/ansible-key-ec2.pub
+**/module.pub
+**/module
+
+# Local tools/installers
+tools/
+*.zip
+*.msi
+*.exe
+
+# Editor files
+.vscode/
+.DS_Store
+Thumbs.db
+*.bak
+*.tmp
