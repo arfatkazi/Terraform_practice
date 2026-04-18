@@ -23,6 +23,8 @@
 **/id_ed25519.pub
 **/ansible-key-ec2
 **/ansible-key-ec2.pub
+**/module.pub
+**/module
 
 # Local tools/installers
 tools/
